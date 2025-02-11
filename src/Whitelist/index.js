@@ -1,8 +1,8 @@
-import whiteListSvg from "./images/image 1.svg";
-import furnaceSvg from "./images/Minecraft Furnace.svg";
-import goldenAppleSvg from "./images/Minecraft Golden Apple.svg";
-import shieldSvg from "./images/Shield.svg";
-import backgroundSvg from "./images/fonW.png";
+import whiteListSvg from "../images/image 1.svg";
+import furnaceSvg from "../images/Minecraft Furnace.svg";
+import goldenAppleSvg from "../images/Minecraft Golden Apple.svg";
+import shieldSvg from "../images/Shield.svg";
+import backgroundSvg from "../images/fonW.png";
 
 export const Whitelist = () => {
   return (

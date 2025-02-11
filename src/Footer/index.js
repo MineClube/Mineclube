@@ -1,10 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState, useEffect } from "react";
-import iconLogo from "./images/иконка (1).svg";
-import telegramLogo from "./images/Telegram App.svg";
-import discordLogo from "./images/Discord New.svg";
+import iconLogo from "../images/иконка (1).svg";
+import telegramLogo from "../images/Telegram App.svg";
+import discordLogo from "../images/Discord New.svg";
 import { useNavigate, useLocation } from "react-router-dom";
-import scrollUp from "./images/Move Up.svg";
+import scrollUp from "../images/Move Up.svg";
 
 export const Footer = () => {
   const navigate = useNavigate();

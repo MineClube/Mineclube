@@ -1,15 +1,15 @@
 import { useState, useEffect, useRef } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import navLogo from "./images/иконка.svg";
-import discordSvg from "./images/Discord New.svg";
-import telegramSvg from "./images/Telegram App.svg";
-import mapSvg from "./images/Map Marker.svg";
-import burgerMenuSvg from "./images/burger-menu-svgrepo-com.svg";
-import complaintIcon from "./images/Rules.svg";
-import homeIcon from "./images/Exterior.svg";
-import informationIcon from "./images/Search Property.svg";
-import rulesIcon from "./images/Shield-1.svg";
-import whitelistIcon from "./images/Hand Box.svg";
+import navLogo from "../images/иконка.svg";
+import discordSvg from "../images/Discord New.svg";
+import telegramSvg from "../images/Telegram App.svg";
+import mapSvg from "../images/Map Marker.svg";
+import burgerMenuSvg from "../images/burger-menu-svgrepo-com.svg";
+import complaintIcon from "../images/Rules.svg";
+import homeIcon from "../images/Exterior.svg";
+import informationIcon from "../images/Search Property.svg";
+import rulesIcon from "../images/Shield-1.svg";
+import whitelistIcon from "../images/Hand Box.svg";
 
 const navLinks = [
   { path: "/", label: "Home" },

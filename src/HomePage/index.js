@@ -1,11 +1,11 @@
 import { useEffect, useRef } from "react";
-import videoBackground from "./images/givHome.mp4";
-import mineclubeTitle from "./images/image.svg";
-import gearClube from "./images/image 7.svg";
-import peopleSvg from "./images/People.svg";
-import giftSvg from "./images/Christmas Gift.svg";
-import confettiSvg from "./images/Confetti.svg";
-import backrgoundMain from "./images/Rectangle 14.svg";
+import videoBackground from "../images/givHome.mp4";
+import mineclubeTitle from "../images/image.svg";
+import gearClube from "../images/image 7.svg";
+import peopleSvg from "../images/People.svg";
+import giftSvg from "../images/Christmas Gift.svg";
+import confettiSvg from "../images/Confetti.svg";
+import backrgoundMain from "../images/Rectangle 14.svg";
 
 export const HomePage = () => {
   const videoRef = useRef(null);

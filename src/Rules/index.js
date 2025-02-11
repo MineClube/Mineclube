@@ -1,4 +1,4 @@
-import rulesSvg from "./images/image 4.svg";
+import rulesSvg from "../images/image 4.svg";
 
 const rulesData = [
   {
