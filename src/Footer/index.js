@@ -82,7 +82,7 @@ export const Footer = () => {
             <img className="icon-button-image" src={discordLogo} alt="logo" />
           </a>
           <a
-            href="https://discord.gg/pC43MXWaYH"
+            href="https://t.me/AtmoMine/1"
             target="_blank"
             rel="noreferrer"
             className="icon-button"
