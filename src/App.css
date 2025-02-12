@@ -11,10 +11,10 @@
   color: white;
 }
 
-*::-webkit-scrollbar{
+*::-webkit-scrollbar {
   -ms-overflow-style: none;
   width: 0;
- }
+}
 
 header {
   align-items: center;
@@ -36,14 +36,13 @@ header {
   position: absolute;
   left: 48%;
   transform: translateX(-50%);
-
 }
 
 body {
   margin: 0;
   top: 0;
   left: 0;
-  
+ 
 }
 
 #root {
@@ -65,8 +64,8 @@ body {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: animatedTextGradient 4s linear infinite;
- 
 }
+
 .icon-button {
   width: 45px;
   height: 45px;
@@ -93,7 +92,7 @@ button:hover {
 }
 
 .button {
-  font-family: 'Kanit'; 
+  font-family: 'Kanit';
   border: none;
   background-color: transparent;
   transition: ease 0.3s;
@@ -125,7 +124,7 @@ button:hover {
   cursor: pointer;
   align-items: center;
   display: flex
-  
+ 
 }
 
 .mobile_header {
@@ -197,14 +196,12 @@ button:hover {
     align-items: center;
     justify-content: center;
   }
-
   .mobile_nav_block1 {
     height: clamp(2px, 10vw, 50px);
     cursor: pointer;
     align-items: center;
     display: flex;
   }
-  
   .mobile_header {
     align-items: center;
     padding: clamp(2px, 4vw, 15px);
@@ -214,7 +211,6 @@ button:hover {
     justify-content: space-between;
     z-index: 997;
   }
-  
   .mobile_nav_block2 {
     display: flex;
     border: solid 1px white;
@@ -223,7 +219,6 @@ button:hover {
     margin-left: clamp(2px, 5vw, 30px);
     margin-right: auto;
   }
-  
   .menu-button {
     transition: 0.3s ease;
     width: clamp(2px, 13.5vw, 60px);
@@ -236,30 +231,24 @@ button:hover {
     justify-content: center;
     z-index: 11;
   }
-  
   .burger-image {
     width: clamp(3px, 10vw, 40px);
   }
   .menu-button:hover {
     background-color: #2C2C4680;
   }
-  
   .logo-img {
     cursor: pointer;
     transition: 0.3s ease;
     border-radius: clamp(1px, 5vw, 23px);
     width: clamp(2px, 13.5vw, 60px);
   }
-  
   .logo-img:hover {
     box-shadow: 0 0 8px 3px #6A1EA4;
   }
-  
 }
-
 .icons-menu {
   margin: 0 10px  0;
-
 }
 
 .menu {
@@ -328,7 +317,6 @@ button:hover {
   backdrop-filter: blur(60px);
   width: 100%;
   background: rgba(0, 0, 0, 0.1);
-
 }
 
 #section1-container {
@@ -338,17 +326,15 @@ button:hover {
   position: relative;
   top: 50px;
   border-radius: 20px;
-  margin: 0 calc(3.75vw) 
-
+  margin: 0 calc(3.75vw)
 }
 
 #top-left-box {
   max-width: max-content;
-
   padding: 2%;
   border-radius: clamp(1px, 3vw, 20px);
   background: linear-gradient(
-  #D9D9D921, 
+  #D9D9D921,
   #FFFFFF21 15% );
   display: flex;
   border: solid 1px rgba(217, 217, 217, 0.15);
@@ -358,7 +344,7 @@ button:hover {
   border-radius: clamp(1px, 3vw, 20px);
   padding: 2%;
   background: linear-gradient(
-  #D9D9D921, 
+  #D9D9D921,
   #FFFFFF21 15% );
   display: flex;
   border: solid 1px rgba(217, 217, 217, 0.15);
@@ -378,11 +364,11 @@ button:hover {
   padding: clamp(1px, 0.5vw, 10px) clamp(1px, 3vw, 23px);
   font-family: 'Inter';
   font-size: clamp(2px, 4vw, 20px);
-font-weight: 600;
-line-height: clamp(1px, 5vw, 29.9px);
-letter-spacing: -0.05em;
-text-align: left;
-color: white;
+  font-weight: 600;
+  line-height: clamp(1px, 5vw, 29.9px);
+  letter-spacing: -0.05em;
+  text-align: left;
+  color: white;
 }
 
 #background-main {
@@ -395,7 +381,7 @@ color: white;
 
 #down-right-container {
   background: linear-gradient(
-  #D9D9D921, 
+  #D9D9D921,
   #FFFFFF21 15% );
   max-width: 267px;
   min-width: none;
@@ -405,7 +391,7 @@ color: white;
   padding: 3%;
   position: absolute; /* Абсолютне позиціонування */
   bottom: -1px;
-  right: 0; 
+  right: 0;
   display: flex;
   border: solid 1px rgba(217, 217, 217, 0.15);
   justify-content: space-around;
@@ -447,12 +433,12 @@ margin: 0;
   font-family: 'Minecraft';
   list-style: none;
   padding: 0;
-  
+ 
 }
 
 #coloredList > ul > li {
   margin: 2px;
-  
+ 
 }
 
 #text-li1 {
@@ -547,15 +533,15 @@ margin: 0;
 
 /*******************FOOTER*********************/
 
-  .footer-bar {
-    margin-top: 6px;
-    height: 3px;
-    border-radius: 3px;
-    background: linear-gradient(#D9D9D921, #FFFFFF21); /* Використовуй 'background' замість 'background-color' */
-    transition: width 0.5s ease-in-out;
-    border: solid #D9D9D926 1px;
-    z-index: 2;
-  }
+.footer-bar {
+  margin-top: 6px;
+  height: 3px;
+  border-radius: 3px;
+  background: linear-gradient(#D9D9D921, #FFFFFF21); /* Використовуй 'background' замість 'background-color' */
+  transition: width 0.5s ease-in-out;
+  border: solid #D9D9D926 1px;
+  z-index: 2;
+}
 
 footer {
   background-color: #0F0E2D;
@@ -581,28 +567,28 @@ footer {
 .footer-text1 {
   font-family: 'Inter';
   font-size: clamp(2px, 4vw, 16px);
-font-weight: 400;
-color: white;
-line-height: clamp(1px, 5vw, 29.9px);
-letter-spacing: -0.05em;
-width: 80%;
-text-align: center;
-margin: 2px;
-margin-top: 10px;
-z-index: 2;
+  font-weight: 400;
+  color: white;
+  line-height: clamp(1px, 5vw, 29.9px);
+  letter-spacing: -0.05em;
+  width: 80%;
+  text-align: center;
+  margin: 2px;
+  margin-top: 10px;
+  z-index: 2;
 }
 
 .footer-text2 {
   font-family: 'Inter';
   font-size: clamp(2px, 4vw, 16px);
-font-weight: 400;
-color: #FFFFFFB2;
-line-height: clamp(1px, 5vw, 29.9px);
-letter-spacing: -0.05em;
-width: 80%;
-text-align: center;
-margin: 2px;
-z-index: 2;
+  font-weight: 400;
+  color: #FFFFFFB2;
+  line-height: clamp(1px, 5vw, 29.9px);
+  letter-spacing: -0.05em;
+  width: 80%;
+  text-align: center;
+  margin: 2px;
+  z-index: 2;
 }
 
 #scroll-button {
@@ -671,13 +657,11 @@ z-index: 2;
   margin: clamp(2px, 3vw, 10px) 0;
   margin-left: clamp(1px, 2vw, 8px);
   font-family: 'Inter';
-
 }
 
 .title {
   margin: clamp(4px, 4vw, 18px) 0;
   font-family: 'Inter';
-
 }
 
 #ul-box {
@@ -687,25 +671,18 @@ z-index: 2;
 
 /*****************Whitelist******************/
 
-@media (max-width: 480px) {
-  #whitelist-block1, #whitelist-block2{
-    width: clamp(100px, 40vw, 456px);
-    font-size: clamp(1px, 5vw, 16px);
-  }
-}
-
 #white-list {
   display: flex;
   margin: 5%;
   gap: 5%;
 }
 
-@media (max-width: 850px) {
-  #white-list {
-    flex-wrap: wrap;
-    justify-content: center;
-
-  }
+#white-list-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5%;
+  gap: 1rem;
 }
 
 #whitelist-block1 {
@@ -732,7 +709,6 @@ z-index: 2;
   display: flex;
   gap: clamp(2px, 2vw, 20px);
 }
-
 
 #whitelist-block1 > div > p {
   margin: clamp(3px, 5vw, 30px) 0 0 0;
@@ -761,9 +737,7 @@ z-index: 2;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  
   animation: shine 6s linear infinite;
-  
 }
 
 @keyframes shine {
@@ -780,22 +754,20 @@ z-index: 2;
 }
 
 @media (max-width: 850px) {
-  #whitelist-block2 {
+  #whitelist-block2-mobile {
   position: relative;
-  width: 100%;
-  margin-top: 20px;
-  max-width: 500px;
+  width: 90vw;
+  max-width: 507.33px;
   height: clamp(100px, 27vw, 200px);
-  max-height: 250px;
-  border-radius: clamp(5px, 12vw, 50px);
+  border-radius: clamp(5px, 9vw, 50px);
   align-items: center;
+  box-sizing: border-box;
   }
-
-  #whitelist-block2 > img {
+  #whitelist-block2-mobile > img {
     filter: blur(6px);
     width: 100%;
+    height: 100%;
     border-radius: clamp(5px, 12vw, 50px);
-    height: 50px;
   }
   #java-button, #bedrock-button {
     background-color: #0F0F2D;
@@ -811,25 +783,32 @@ z-index: 2;
     transition: 0.5s ease;
     position: relative;
     left: 0;
-    height: clamp(40px, 3vw, 60px);
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5);
+    height: clamp(20px, 9vw, 60px);
   }
-  
-#button-container {
-  position: absolute;
-  margin: auto;
-  top: 0px;
-  left: 3vw;
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  gap: clamp(5px, 3vw, 20px);
-}
-  
+  #button-container-mobile {
+    position: absolute;
+    top: 0px;
+    max-width: 100%;
+    height: 100%;
+    max-height: clamp(100px, 27vw, 200px);
+    display: flex;
+    gap: 19%;
+    flex-direction: column;
+    border-radius: clamp(5px, 9vw, 50px);
+    width: 100%;
+    padding: clamp(2%, 3vw, 10%) 5%;
+    box-sizing: border-box;
+  }
+  #whitelist-block1, #whitelist-block2-mobile {
+    font-size: clamp(1px, 5vw, 16px);
+  }
+  #whitelist-block1 {
+    max-width: clamp(100px, 80vw, 507.33px);
+  }
 }
 
 #whitelist-block2 > img {
-  filter: blur(6px);
+  filter: blur(5px);
   width: 100%;
   border-radius: clamp(5px, 12vw, 50px);
   height: 100%;
@@ -840,8 +819,10 @@ z-index: 2;
   top: 0;
   display: flex;
   flex-direction: column;
-  margin: clamp(20px, 3vw, 40px);
   gap: 20px;
+  width: 100%;
+  height: 100%;
+  padding: clamp(2%, 3vw, 10%) 5%;
 }
 
 #java-button, #bedrock-button {
@@ -854,10 +835,11 @@ z-index: 2;
   display: flex;
   font-family: 'Kanit';
   font-weight: 600;
-  font-size: clamp(10px, 5vw, 32px);
+  font-size: clamp(10px, 3.2vw, 32px);
   transition: 0.5s ease;
   position: relative;
   left: 0;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 1);
 }
 
 @media (min-width: 851px) {
@@ -865,22 +847,360 @@ z-index: 2;
     height: clamp(40px, 7vw, 60px);
     width: clamp(150px, 29vw, 280px);
   }
-  
   #java-button:hover {
     left: clamp(5px, 1vw, 20px);
   }
-  
   #bedrock-button {
     left: 0;
     height: clamp(40px, 7vw, 60px);
     width: clamp(200px, 33vw, 330px);
   }
-  
   #bedrock-button:hover {
     left: clamp(5px, 1vw, 20px);
   }
 }
 
+/*****************Information*******************/
 
+#information-container {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+  color: white;
+  font-family: 'Inter';
+}
 
+#info-block1 {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  z-index: 3;
+}
 
+.fox {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(95%);
+  width: 40%;
+  left: 60%;
+  z-index: -1;
+  filter: drop-shadow(0px 8px 15px rgba(0, 0, 0, 1));
+}
+
+#info-block2 {
+  position: relative;
+  z-index: 1;
+  margin: 50px 0;
+  height: 370px;
+  width: 500px;
+  z-index: 1;
+}
+
+#info-block2-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#info-block2-sc1 {
+  position: absolute;
+  padding-top: 20px;
+  width: 200px;
+  left: 30px;
+  text-align: center;
+}
+
+#info-block2-sc2 {
+  position: absolute;
+  width: 200px;
+  right: 20px;
+  top: 80px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+#am {
+  position: absolute;
+  bottom: 4px;
+  height: 140px;
+  left: 93px;
+}
+
+.bold-title {
+  font-weight: 700;
+}
+
+#info-block2 > div > p {
+  margin: 0;
+  font-family: 'Inter';
+  font-size: 24px;
+  color: white;
+}
+
+@media (max-width: 570px) {
+  #info-block2 {
+    height: clamp(0px, 65vw, 370px);
+    width: clamp(0px, 90vw, 500px);
+  }
+  #info-block2 > div > p {
+    font-size: clamp(0px, 4vw, 24px);
+  }
+  #info-block2-sc1 {
+    position: absolute;
+    padding-top: clamp(0px, 4vw, 20px);
+    width: clamp(0px, 35vw, 200px);
+    left: clamp(1px, 8vw, 40px);
+    text-align: center;
+  }
+  #info-block2-sc2 {
+    width: clamp(0px, 35vw, 200px);
+    right: clamp(1px, 4vw, 20px);
+    top: clamp(0px, 17.5vw,100px);
+    padding-top: clamp(0px, 2vw, 15px);
+    line-height: clamp(0px, 6vw, 30px);
+  }
+  #am {
+    position: absolute;
+    bottom: clamp(0px, 2vw,7px);
+    height: clamp(0px, 24vw, 140px);
+    left: clamp(0px, 20.5vw,110px);
+  }
+  hr {
+    margin: clamp(0px, 2vw, 8px) auto;
+  }
+}
+hr {
+  width: 0;
+  transition: width 1s ease; /* анімація зміни ширини */
+}
+hr.visible {
+  width: 100%; /* коли клас 'visible' додається, ширина лінії стає 100% */
+}
+
+.title-container > h3 {
+  font-size: clamp(0px, 8vw,32px);
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.info-title {
+  margin: 0 auto 0 5px;
+  font-size: clamp(0px,8vw,32px);
+  font-weight: 1000;
+}
+
+.sub-info-block {
+  border-radius: clamp(1px,10vw,50px);
+  border: solid 1px #FFFFFF33;
+  padding: clamp(1px,5vw,20px);
+  max-width: 456px;
+}
+
+.info-row > img {
+  height: clamp(1px,12vw,54px);
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+#section-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+@media (max-width: 750px) {
+  section {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  #section-container {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  .title-container > h3 {
+    text-align: center;
+  }
+  .title-container {
+    width: 70%;
+    margin: auto;
+  }
+  #info-block5 > .sub-info-block > .info-row {
+    flex-direction: row-reverse;
+  }
+  #info-block5 > .sub-info-block > .info-row > .info-title {
+    margin: 0 5px 0 auto
+  }
+  #info-mascot-text {
+    position: absolute;
+    bottom: 120px;
+    left: clamp(1px, 5vw, 30px);
+    width: clamp(1px, 25vw,150px);
+    align-items: center;
+    text-align: center;
+  }
+  #info-mascot-text > p {
+    font-size: clamp(1px, 5vw, 20px);
+    margin-bottom: 2px;
+    font-weight: 600;
+  }
+}
+
+.fox-mobile {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(96%);
+  height: 175px;
+  left: 27%;
+  z-index: -1;
+  filter: drop-shadow(0px 8px 15px rgba(0, 0, 0, 1));
+}
+
+#info-block5 {
+  z-index: 2;
+  position: relative;
+}
+
+.secondary-title {
+  color: #C5BBBB;
+  font-weight: 600;
+  line-height: clamp(1px,8vw,30px);
+  margin: clamp(1px,8vw,30px) 0;
+}
+
+.main-title {
+  font-weight: 600;
+  line-height: 30px;
+}
+
+#info-block4 {
+  position: relative;
+}
+
+#info-mascot {
+  width: 100%;
+}
+
+@media (min-width: 750px) {
+  #info-mascot-text {
+    position: absolute;
+    top: clamp(1px, 36vw, 450px);
+    left: clamp(1px, 2vw, 20px);
+    width: clamp(1px, 14vw,140px);
+    align-items: center;
+    text-align: center;
+  }
+  #info-mascot-text > p {
+    font-size: clamp(1px, 2vw, 20px);
+    margin-bottom: 2px;
+    font-weight: 600;
+  }
+}
+
+#info-mascot-text > hr {
+  margin: 0 auto;
+}
+ 
+#info-block3 > .sub-info-block > .info-row > .info-title {
+  font-family: 'Kanit';
+  background: linear-gradient(
+    to right,
+    #8F0B9B 16%,
+    #7029A3 33%, /* Проміжний колір для плавності */
+    #4A3BB0 50%, /* Ще один перехідний відтінок */
+    #3109B4 66%,
+    #4A3BB0 87%,
+    #7029A3 95%,
+    #8F0B9B 100%
+  );
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 6s linear infinite;
+}
+
+#info-block5 > .sub-info-block > .info-row > .info-title {
+  font-family: 'Kanit';
+  background: linear-gradient(
+    to right,
+    #8A1DC9 16%,
+    #b449f1 33%, /* Проміжний колір для плавності */
+    #e5b8ff 50%, /* Ще один перехідний відтінок */
+    #FFFFFF 66%,
+    #e5b8ff 87%,
+    #b449f1 95%,
+    #8A1DC9 100%
+  );
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 6s linear infinite;
+}
+
+#info-block6 > .sub-info-block > .info-row > .info-title {
+  font-family: 'Kanit';
+  background: linear-gradient(
+    to right,
+    #C91DBE 16%,
+    #fe4ff2 33%, /* Проміжний колір для плавності */
+    #ffbafa 50%, /* Ще один перехідний відтінок */
+    #FFFFFF 66%,
+    #ffbafa 87%,
+    #fe4ff2 95%,
+    #C91DBE 100%
+  );
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 6s linear infinite;
+}
+
+#info-block6 > .sub-info-block > p > span, #info-block6 > .sub-info-block > span, #info-block3 > .sub-info-block > p > span {
+  background: linear-gradient(30deg, #C91DBE, white);
+  background-size: 100% auto;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#info-block5 > .sub-info-block > p > span {
+  background: linear-gradient(30deg, #8A1DC9, white);
+  background-size: 100% auto;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 570px) {
+  #info-mascot-text {
+    position: absolute;
+    bottom: clamp(1px,10vw,45px);
+    left: clamp(1px, 10vw, 70px);
+    width: clamp(1px, 25vw,150px);
+    align-items: center;
+    text-align: center;
+  }
+  #info-mascot-text > p {
+    font-size: clamp(1px, 4vw, 20px);
+    margin-bottom: 2px;
+    font-weight: 600;
+  }
+  #info-block4 {
+    margin-top: 107px;
+  }
+}

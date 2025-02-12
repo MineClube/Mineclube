@@ -3,10 +3,26 @@ import furnaceSvg from "../images/Minecraft Furnace.svg";
 import goldenAppleSvg from "../images/Minecraft Golden Apple.svg";
 import shieldSvg from "../images/Shield.svg";
 import backgroundSvg from "../images/fonW.png";
+import { useState, useEffect } from "react";
 
 export const Whitelist = () => {
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth > 850);
+  useEffect(() => {
+    const handleResize = () => {
+      const isNowDesktop = window.innerWidth > 850;
+      setIsDesktop(isNowDesktop);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    handleResize();
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, [setIsDesktop]);
   return (
-    <div id="white-list">
+    <div id={isDesktop ? "white-list" : "white-list-mobile"}>
       <div id="whitelist-block1">
         <div id="whitelist-row1">
           <img src={whiteListSvg} alt="whitelist" />
@@ -33,16 +49,34 @@ export const Whitelist = () => {
           </p>
         </div>
       </div>
-      <div id="whitelist-block2">
+      <div id={isDesktop ? "whitelist-block2" : "whitelist-block2-mobile"}>
         <img src={backgroundSvg} alt="bg" />
-        <div id="button-container">
-          <button id="java-button">
+        <div id={isDesktop ? "button-container" : "button-container-mobile"}>
+          <button
+            onClick={() =>
+              window.open(
+                "https://docs.google.com/forms/d/e/1FAIpQLSdF4vCFEdrXbIyD6LU7-CIiWaPQG4xtjXo2wPX8KQkniu9NkQ/viewform",
+                "_blank",
+                "noopener,noreferrer"
+              )
+            }
+            id="java-button"
+          >
             Java edition
-            <img src={goldenAppleSvg} alt="java" />
+            <img height="100%" src={goldenAppleSvg} alt="java" />
           </button>
-          <button id="bedrock-button">
+          <button
+            onClick={() =>
+              window.open(
+                "https://docs.google.com/forms/d/e/1FAIpQLSf-wZocMbYzoV6AFAb5VFhAaYqQyR0kLVt5fcWK-NBUvDXdjg/viewform",
+                "_blank",
+                "noopener,noreferrer"
+              )
+            }
+            id="bedrock-button"
+          >
             Bedrock edition
-            <img src={furnaceSvg} alt="bedrock" />
+            <img height="100%" src={furnaceSvg} alt="bedrock" />
           </button>
         </div>
       </div>
